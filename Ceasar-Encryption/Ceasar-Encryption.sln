@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ceasar-Encryption", "Ceasar-Encryption.vcxproj", "{35E94EDA-7B44-4593-92F3-3E141641C25C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cipher", "Cipher\Cipher.vcxproj", "{BA81439A-C25C-4010-8EB2-C0192234C6CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{35E94EDA-7B44-4593-92F3-3E141641C25C}.Release|x64.Build.0 = Release|x64
 		{35E94EDA-7B44-4593-92F3-3E141641C25C}.Release|x86.ActiveCfg = Release|Win32
 		{35E94EDA-7B44-4593-92F3-3E141641C25C}.Release|x86.Build.0 = Release|Win32
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Debug|x64.ActiveCfg = Debug|x64
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Debug|x64.Build.0 = Debug|x64
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Debug|x86.Build.0 = Debug|Win32
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Release|x64.ActiveCfg = Release|x64
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Release|x64.Build.0 = Release|x64
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Release|x86.ActiveCfg = Release|Win32
+		{BA81439A-C25C-4010-8EB2-C0192234C6CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
-/.vs
-/Ceasar-E.35e94eda
-/x64
+/Ceasar-Encryption/.vs
+/Ceasar-Encryption/Ceasar-E.35e94eda
+/Ceasar-Encryption/x64
+/Ceasar-Encryption/Cipher/x64

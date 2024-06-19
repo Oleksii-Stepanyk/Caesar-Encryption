@@ -11,8 +11,8 @@ int main()
 	HINSTANCE handle = LoadLibrary(TEXT("Cipher.dll")); if
 		(handle == nullptr || handle == INVALID_HANDLE_VALUE)
 	{
-		cout << "Lib not found" << endl;
-		return 1;
+		DWORD err = GetLastError();
+		return err;
 	}
 	encrypt_ptr encrypt = (encrypt_ptr)GetProcAddress(handle, "encrypt");
 	if (encrypt == nullptr)
